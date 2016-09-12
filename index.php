@@ -12,6 +12,6 @@ foreach ($students as $student=>$age) {
     echo $student.' '.$age.'<br/>';
     $sum_age+=$age;
 }
-echo $sum_age/count($students);
+echo 'moyenne : ' . $sum_age/count($students);
 
 ?>
